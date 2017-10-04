@@ -25,7 +25,7 @@ SECRET_KEY = '=-im3-x_h4juo^(!_%%g96u!v)@hxq2=k*jbtybe%0ktiw(+l%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['guarded-citadel-41049.herokuapp.com']
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
