@@ -6,4 +6,3 @@ class Post(models.Model):
     title = models.CharField("Title",max_length = 200)
     body = models.TextField(default="Body of post goes here")
     picture = models.ImageField(default="default.png")
-    
