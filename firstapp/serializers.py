@@ -1,8 +1,8 @@
-from .models import Post
+from .models import Todos
 from rest_framework import serializers
 
-class PostSerializer(serializers.HyperlinkedModelSerializer):
+class TodosSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = Post
+        model = Todos
         fields = ('userId', 'id', 'title', 'body', 'picture')
         

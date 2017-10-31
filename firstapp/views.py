@@ -1,10 +1,10 @@
 from django.shortcuts import render
-from .models import Post
-from .serializers import PostSerializer
+from .models import Todos
+from .serializers import TodosSerializer
 from rest_framework import viewsets
 
-class PostViewSet(viewsets.ModelViewSet):
-    queryset = Post.objects.all()
-    serializer_class = PostSerializer
+class TodosViewSet(viewsets.ModelViewSet):
+    queryset =  Todos.objects.all()
+    serializer_class = TodosSerializer
     
 # Create your views here.
